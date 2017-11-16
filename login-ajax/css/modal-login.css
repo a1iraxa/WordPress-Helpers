@@ -1,0 +1,252 @@
+/*-----------------------------------------------------------------------------------*/
+/* Modal window CSS */
+/*-----------------------------------------------------------------------------------*/
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.fade.ml-in {
+  opacity: 1;
+}
+.modal-login-open {
+  overflow: hidden;
+}
+.ml-modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+.ml-modal.fade .modal-login-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.15s ease-out;
+  -moz-transition: -moz-transform 0.15s ease-out;
+  -o-transition: -o-transform 0.15s ease-out;
+  transition: transform 0.15s ease-out;
+}
+.ml-modal.ml-in .modal-login-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-login-dialog {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 25px;
+  z-index: 1050;
+}
+.ml-content {
+  position: relative;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+.modal-login-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #000000;
+}
+.modal-login-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.modal-login-backdrop.ml-in {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.modal-login-header .close {
+  margin-top: -2px;
+}
+.ml-close {
+  position: absolute;
+  top: 30px;
+  right: 50px; 
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+@media screen and (min-width: 768px) {
+  .modal-login-dialog {
+    /*left: 50%;*/
+    right: auto;
+    width: 540px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .ml-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  button.ml-close {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ml-close {
+    position: absolute;
+    top: 30px;
+    right: 50px; 
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+  }
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Deafult Login Styles */
+/*-----------------------------------------------------------------------------------*/
+
+#modal-login {
+  line-height: 1em;
+  font-size: 16px;
+  font-weight: 500;
+}
+#modal-login input[type="checkbox"] {
+  margin: 0;
+}
+.group:after {
+  content:"";
+  display:table;
+  clear:both
+}
+#modal-login .hide-login {
+  display:none;
+  }
+#modal-login .inline{
+  display:inline;
+}
+#modal-login .input {
+  width: 100%;
+  margin: 0;
+  outline: 0;
+  background-color: #fff;
+  color: #000;
+}
+#modal-login .submit {
+  float: right;
+}
+#modal-login h2 {
+  margin: 0 0 30px;
+  font-size: 30px;
+  line-height: 1.2em;
+}
+#modal-login form {
+  margin: 0;
+}
+#modal-login .field-titles {
+  line-height: 2em;
+  margin: 0;
+}
+#modal-login #forgetmenot {
+  float: left;
+  margin: 15px 0 0 0;
+}
+#modal-login #forgetmenot label {
+  font-size: 16px;
+  cursor: pointer;
+}
+#additional-settings {
+  position: absolute;
+  bottom: -30px;
+  font-size: 14px;
+}
+#additional-settings a {
+  color: #fff;
+}
+#additional-settings a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+#modal-login .submit .button:hover {
+  opacity: 0.9;
+}
+#modal-login p {
+  margin: 0;
+}
+.mluser {
+  padding-bottom: 15px 
+}
+
+.mlpsw {
+  padding-bottom: 40px 
+}
+.mlregpsw {
+  padding-bottom: 15px 
+}
+.mlregpswconf {
+  padding-bottom: 30px 
+}
+.mlemail {
+  padding-bottom: 15px 
+}
+.mlforgt {
+  padding-bottom: 37px 
+}
+#modal-login .field-titles {
+  line-height: 2em;
+  margin: 0;
+}
+#modal-login .message {
+  color: #fff;
+  padding: 14px 14px;
+  margin-bottom: 15px;
+}
+#modal-login .error {
+  background-color: rgb(219, 64, 64);
+}
+#modal-login .success {
+  background-color: rgb(104, 202, 79);
+}
+#modal-login input[type="text"], #modal-login input[type="password"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#modal-login input[type="text"], #modal-login input[type="password"] {
+  padding: 10px;
+  height: 44px;
+  font-size: 16px;
+  line-height: 2em;
+}
+#modal-login .submit .button {
+  border: none;
+  padding: 13px 20px;
+  background: #222;
+  color: #fff;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  #modal-login h2 {
+    font-size: 26px;
+  }
+}
+
+

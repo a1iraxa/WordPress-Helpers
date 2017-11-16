@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------------------------*/
+/* No labels CSS */
+/*-----------------------------------------------------------------------------------*/
+
+#modal-login .field-titles {
+	display: none;
+}
+#modal-login #register .submit {
+}
+.mluser {
+	padding-bottom: 31px;
+}
+.mlemail, .mlregpsw {
+	padding-bottom: 30px;
+}
+#modal-login .message {
+  margin-bottom: 30px;
+}

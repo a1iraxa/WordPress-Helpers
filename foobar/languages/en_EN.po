@@ -1,0 +1,2013 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Realia\n"
+"POT-Creation-Date: 2015-08-24 14:15+0200\n"
+"PO-Revision-Date: 2015-08-24 14:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: includes/admin/class-realia-admin-menu.php:43
+msgid "Realia"
+msgstr ""
+
+#: includes/admin/class-realia-admin-notices.php:59
+msgid "Please refresh the page and retry action."
+msgstr ""
+
+#: includes/class-realia-filter.php:51 templates/widgets/filter-fields/id.php:4
+#: templates/widgets/filter-fields/id.php:8
+msgid "Property ID"
+msgstr ""
+
+#: includes/class-realia-filter.php:52
+#: includes/post-types/class-realia-post-type-agency.php:106
+#: includes/post-types/class-realia-post-type-agency.php:114
+#: includes/post-types/class-realia-post-type-property.php:295
+#: includes/post-types/class-realia-post-type-property.php:303
+#: includes/post-types/class-realia-post-type-property.php:428
+#: includes/post-types/class-realia-post-type-property.php:480
+#: includes/taxonomies/class-realia-taxonomies-locations.php:34
+#: templates/content-property.php:108
+#: templates/widgets/filter-fields/location.php:4
+#: templates/widgets/filter-fields/location.php:10
+msgid "Location"
+msgstr ""
+
+#: includes/class-realia-filter.php:53
+#: templates/widgets/filter-fields/property-type.php:4
+#: templates/widgets/filter-fields/property-type.php:15
+msgid "Property type"
+msgstr ""
+
+#: includes/class-realia-filter.php:54
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:34
+#: templates/widgets/filter-fields/amenity.php:4
+#: templates/widgets/filter-fields/amenity.php:11
+msgid "Amenity"
+msgstr ""
+
+#: includes/class-realia-filter.php:55
+#: includes/post-types/class-realia-post-type-property.php:482
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:34
+#: templates/content-property.php:103 templates/properties/row.php:79
+#: templates/widgets/filter-fields/status.php:4
+#: templates/widgets/filter-fields/status.php:12
+msgid "Status"
+msgstr ""
+
+#: includes/class-realia-filter.php:56
+#: includes/post-types/class-realia-post-type-property.php:122
+#: templates/content-property.php:91
+#: templates/widgets/filter-fields/contract.php:4
+msgid "Contract"
+msgstr ""
+
+#: includes/class-realia-filter.php:57
+#: includes/taxonomies/class-realia-taxonomies-materials.php:34
+#: templates/content-property.php:131
+#: templates/widgets/filter-fields/material.php:4
+#: templates/widgets/filter-fields/material.php:12
+msgid "Material"
+msgstr ""
+
+#: includes/class-realia-filter.php:58
+#: includes/post-types/class-realia-post-type-package.php:83
+#: includes/post-types/class-realia-post-type-property.php:165
+#: includes/post-types/class-realia-post-type-property.php:397
+#: includes/post-types/class-realia-post-type-property.php:479
+#: includes/post-types/class-realia-post-type-transaction.php:113
+#: templates/content-property.php:60 templates/misc/transactions.php:19
+#: templates/properties/row.php:58 templates/properties/sort.php:22
+msgid "Price"
+msgstr ""
+
+#: includes/class-realia-filter.php:59
+#: includes/post-types/class-realia-post-type-property.php:200
+#: includes/post-types/class-realia-post-type-property.php:403
+#: templates/content-property.php:136
+#: templates/widgets/filter-fields/rooms.php:5
+msgid "Rooms"
+msgstr ""
+
+#: includes/class-realia-filter.php:60
+#: includes/post-types/class-realia-post-type-property.php:210
+#: includes/post-types/class-realia-post-type-property.php:413
+#: templates/content-property.php:146
+#: templates/misc/google-map-infowindow.php:46
+#: templates/widgets/filter-fields/baths.php:4
+msgid "Baths"
+msgstr ""
+
+#: includes/class-realia-filter.php:61
+#: includes/post-types/class-realia-post-type-property.php:205
+#: includes/post-types/class-realia-post-type-property.php:408
+#: templates/content-property.php:141
+#: templates/misc/google-map-infowindow.php:38
+#: templates/widgets/filter-fields/beds.php:4
+msgid "Beds"
+msgstr ""
+
+#: includes/class-realia-filter.php:62
+#: includes/post-types/class-realia-post-type-property.php:92
+#: templates/content-property.php:70
+#: templates/widgets/filter-fields/year-built.php:4
+#: templates/widgets/filter-fields/year-built.php:8
+msgid "Year built"
+msgstr ""
+
+#: includes/class-realia-filter.php:63
+#: includes/post-types/class-realia-post-type-property.php:220
+#: templates/content-property.php:113
+msgid "Home area"
+msgstr ""
+
+#: includes/class-realia-filter.php:64
+#: includes/post-types/class-realia-post-type-property.php:232
+#: templates/content-property.php:125
+msgid "Lot area"
+msgstr ""
+
+#: includes/class-realia-filter.php:65
+#: includes/post-types/class-realia-post-type-property.php:215
+#: includes/post-types/class-realia-post-type-property.php:418
+#: templates/content-property.php:151
+#: templates/widgets/filter-fields/garages.php:5
+msgid "Garages"
+msgstr ""
+
+#: includes/class-realia-filter.php:66
+#: includes/post-types/class-realia-post-type-property.php:107
+#: includes/post-types/class-realia-post-type-property.php:484
+#: templates/content-property.php:20 templates/content-property.php:22
+#: templates/properties/box.php:34 templates/properties/box.php:36
+#: templates/properties/row.php:14 templates/properties/row.php:16
+#: templates/submission/list.php:119
+#: templates/widgets/filter-fields/featured.php:7
+msgid "Featured"
+msgstr ""
+
+#: includes/class-realia-filter.php:67
+#: includes/post-types/class-realia-post-type-property.php:117
+#: includes/post-types/class-realia-post-type-property.php:485
+#: templates/content-property.php:20 templates/content-property.php:24
+#: templates/properties/box.php:34 templates/properties/box.php:38
+#: templates/properties/row.php:14 templates/properties/row.php:18
+#: templates/widgets/filter-fields/reduced.php:7
+msgid "Reduced"
+msgstr ""
+
+#: includes/class-realia-filter.php:68
+#: includes/post-types/class-realia-post-type-property.php:112
+#: templates/submission/list.php:95
+msgid "Sticky"
+msgstr ""
+
+#: includes/class-realia-filter.php:69
+#: includes/post-types/class-realia-post-type-property.php:132
+#: templates/content-property.php:79 templates/widgets/filter-fields/sold.php:7
+msgid "Sold"
+msgstr ""
+
+#: includes/class-realia-packages.php:38 includes/class-realia-packages.php:62
+#: includes/class-realia-pages.php:31
+msgid "Not set"
+msgstr ""
+
+#: includes/class-realia-packages.php:66
+msgid "1 week"
+msgstr ""
+
+#: includes/class-realia-packages.php:67
+msgid "1 month"
+msgstr ""
+
+#: includes/class-realia-packages.php:68
+msgid "1 year"
+msgstr ""
+
+#: includes/class-realia-shortcodes.php:51
+msgid "You have been successfully logged out."
+msgstr ""
+
+#: includes/class-realia-shortcodes.php:112
+msgid "A metabox with the specified 'metabox_id' doesn't exist."
+msgstr ""
+
+#: includes/class-realia-shortcodes.php:132
+msgid "Save property"
+msgstr ""
+
+#: includes/class-realia-shortcodes.php:155
+msgid "Property has been successfully removed."
+msgstr ""
+
+#: includes/class-realia-shortcodes.php:157
+msgid "An error occured when removing an item."
+msgstr ""
+
+#: includes/class-realia-submission.php:38
+msgid "Wire Transfer"
+msgstr ""
+
+#: includes/class-realia-utilities.php:45
+msgid "Please sign in before accessing this page."
+msgstr ""
+
+#: includes/class-realia-utilities.php:56 templates/misc/not-allowed.php:8
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:34
+msgid "Realia Currency"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:46
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:59
+msgid "Currency Code"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:73
+msgid "Show Symbol After Amount"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:85
+msgid "Decimal places"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:98
+msgid "Decimal Separator"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:111
+msgid "Thousands Separator"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-currency.php:114
+msgid "If you need space, enter &amp;nbsp;"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:37
+msgid "Realia General"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:50
+msgid "Login Required Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:65
+msgid "After Login Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:80
+msgid "After Register Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:95
+msgid "Profile Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:110
+msgid "Password Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:125
+msgid "Hide Unassigned Amenities"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-general.php:139
+msgid "Show property archive as grid"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-measurement.php:34
+msgid "Realia Measurement"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-measurement.php:46
+msgid "Area Unit"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-measurement.php:59
+msgid "Distance Unit"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-recaptcha.php:34
+msgid "Realia reCAPTCHA"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-recaptcha.php:45
+msgid "Site Key"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-recaptcha.php:57
+msgid "Secret Key"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:36
+msgid "Realia Submission"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:49
+msgid "Enable agents"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:63
+#: includes/post-types/class-realia-post-type-property.php:481
+#: includes/post-types/class-realia-post-type-transaction.php:115
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:34
+#: templates/content-property.php:75 templates/properties/row.php:65
+msgid "Type"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:67
+msgid "Free for all"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:68
+#: includes/post-types/class-realia-post-type-transaction.php:165
+#: templates/misc/transactions.php:50
+msgid "Pay per post"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:69
+#: includes/post-types/class-realia-post-type-package.php:34
+#: includes/post-types/class-realia-post-type-package.php:40
+#: includes/post-types/class-realia-post-type-package.php:46
+msgid "Packages"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:81
+msgid "Pay per post - Post price"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:84
+#: includes/customizations/class-realia-customizations-submission.php:112
+#: includes/customizations/class-realia-customizations-submission.php:140
+msgid ""
+"Enter price without any currency. As main currency will be used primary one "
+"(first defined)."
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:96
+msgid "Enable pay for featured"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:109
+msgid "Featured price"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:124
+msgid "Enable pay for sticky"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:137
+msgid "Sticky price"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:152
+msgid "Payment Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:167
+msgid "List Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:182
+msgid "Create Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:197
+msgid "Edit Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:212
+msgid "Remove Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:227
+msgid "Transactions Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:242
+msgid "Terms &amp; Conditions Page"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-submission.php:257
+msgid "Review Before Submission"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:34
+msgid "Realia Wire Transfer"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:46
+msgid "Account number"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:49
+msgid "Bank account number [mandatory]"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:60
+msgid "Bank code"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:63
+msgid "SWIFT or BIC of your bank [mandatory]"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:74
+msgid "Full name"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:77
+msgid "Your full name [mandatory]"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:88
+#: templates/submission/wire-transfer.php:49
+msgid "Street / P.O.Box"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:91
+msgid "Enter your street."
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:102
+msgid "Postcode"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:105
+msgid "Enter your postcode (ZIP)."
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:116
+#: templates/submission/wire-transfer.php:59
+msgid "City"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:119
+msgid "Enter your city."
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:130
+#: templates/submission/wire-transfer.php:64
+msgid "Country"
+msgstr ""
+
+#: includes/customizations/class-realia-customizations-wire-transfer.php:133
+msgid "Enter your country [mandatory]"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:36
+#: includes/post-types/class-realia-post-type-agency.php:42
+#: includes/post-types/class-realia-post-type-agency.php:48
+#: includes/post-types/class-realia-post-type-agent.php:111
+msgid "Agencies"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:37
+msgid "Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:38
+#: includes/post-types/class-realia-post-type-agency.php:39
+msgid "Add New Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:40
+msgid "Edit Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:41
+msgid "New Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:43
+msgid "View Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:44
+msgid "Search Agency"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:45
+msgid "No agencies found"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:46
+msgid "No agencies found in Trash"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:59
+msgid "agencies"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:75
+#: includes/post-types/class-realia-post-type-agent.php:84
+#: includes/post-types/class-realia-post-type-agent.php:143
+#: includes/post-types/class-realia-post-type-property.php:80
+#: includes/post-types/class-realia-post-type-property.php:356
+msgid "General Options"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:83
+#: includes/post-types/class-realia-post-type-agency.php:136
+#: includes/post-types/class-realia-post-type-agent.php:92
+#: includes/post-types/class-realia-post-type-agent.php:174
+#: includes/post-types/class-realia-post-type-agent.php:210
+#: templates/agents/contact-form.php:40 templates/mails/enquire.php:14
+#: templates/misc/profile-form.php:19 templates/misc/register.php:15
+#: templates/widgets/enquire.php:35
+msgid "E-mail"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:88
+#: includes/post-types/class-realia-post-type-agency.php:137
+#: includes/post-types/class-realia-post-type-agent.php:97
+#: includes/post-types/class-realia-post-type-agent.php:179
+#: includes/post-types/class-realia-post-type-agent.php:211
+#: templates/agencies/row.php:61 templates/agents/row.php:62
+#: templates/content-agency.php:36 templates/content-agent.php:36
+msgid "Web"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:93
+#: includes/post-types/class-realia-post-type-agency.php:138
+#: includes/post-types/class-realia-post-type-agent.php:102
+#: includes/post-types/class-realia-post-type-agent.php:184
+#: includes/post-types/class-realia-post-type-agent.php:212
+#: templates/agencies/row.php:70 templates/agents/row.php:71
+#: templates/content-agency.php:41 templates/content-agent.php:41
+msgid "Phone"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:98
+#: includes/post-types/class-realia-post-type-agent.php:107
+#: includes/post-types/class-realia-post-type-agent.php:189
+#: includes/post-types/class-realia-post-type-property.php:97
+#: templates/agencies/row.php:74 templates/agents/row.php:75
+#: templates/content-agency.php:46 templates/content-agent.php:46
+msgid "Address"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:115
+msgid "Drag the marker to set the exact location"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:134
+#: includes/post-types/class-realia-post-type-agent.php:155
+#: includes/post-types/class-realia-post-type-agent.php:208
+#: includes/post-types/class-realia-post-type-property.php:368
+#: includes/post-types/class-realia-post-type-property.php:477
+#: includes/post-types/class-realia-post-type-transaction.php:110
+#: templates/properties/sort.php:23 templates/widgets/agents-admin.php:17
+#: templates/widgets/agents-assigned-admin.php:12
+#: templates/widgets/enquire-admin.php:16 templates/widgets/filter-admin.php:15
+#: templates/widgets/filter-rent-sale-admin.php:17
+#: templates/widgets/properties-admin.php:18
+msgid "Title"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:135
+#: includes/post-types/class-realia-post-type-agent.php:209
+#: includes/post-types/class-realia-post-type-property.php:478
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:139
+#: includes/post-types/class-realia-post-type-agent.php:38
+#: includes/post-types/class-realia-post-type-agent.php:44
+#: includes/post-types/class-realia-post-type-agent.php:50
+#: includes/post-types/class-realia-post-type-property.php:329
+#: includes/widgets/class-realia-widget-agents.php:24
+msgid "Agents"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agency.php:140
+#: includes/post-types/class-realia-post-type-agent.php:214
+#: includes/post-types/class-realia-post-type-property.php:486
+#: includes/post-types/class-realia-post-type-transaction.php:117
+msgid "Author"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:39
+#: includes/post-types/class-realia-post-type-user.php:74
+msgid "Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:40
+#: includes/post-types/class-realia-post-type-agent.php:41
+msgid "Add New Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:42
+msgid "Edit Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:43
+msgid "New Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:45
+msgid "View Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:46
+msgid "Search Agent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:47
+msgid "No agents found"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:48
+msgid "No agents found in Trash"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:60
+#: templates/agencies/row.php:26
+msgid "agents"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:162
+#: includes/post-types/class-realia-post-type-property.php:374
+#: templates/widgets/agents-admin.php:30
+#: templates/widgets/properties-admin.php:31
+msgid "Description"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:168
+msgid "Image"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:213
+#: includes/post-types/class-realia-post-type-property.php:41
+#: includes/post-types/class-realia-post-type-property.php:53
+#: includes/widgets/class-realia-widget-properties.php:24
+msgid "Properties"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-agent.php:319
+msgid "Agent has been successfully updated."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:35
+#: includes/post-types/class-realia-post-type-transaction.php:168
+#: includes/post-types/class-realia-post-type-user.php:51
+#: templates/misc/transactions.php:53
+msgid "Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:36
+#: includes/post-types/class-realia-post-type-package.php:37
+msgid "Add New Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:38
+msgid "Edit Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:39
+msgid "New Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:41
+msgid "View Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:42
+msgid "Search Package"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:43
+msgid "No Packages found"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:44
+msgid "No Items Found in Trash"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:75
+#: includes/post-types/class-realia-post-type-transaction.php:74
+#: includes/post-types/class-realia-post-type-user.php:89
+msgid "General"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:85
+#: includes/post-types/class-realia-post-type-property.php:167
+#: includes/post-types/class-realia-post-type-property.php:399
+msgid "Enter amount without currency."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:89
+msgid "Duration"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:95
+msgid "Of properties"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-package.php:97
+msgid "Use -1 for unlimited amount of properties."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:42
+msgid "Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:43
+#: includes/post-types/class-realia-post-type-property.php:44
+msgid "Add New Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:45
+msgid "Edit Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:46
+msgid "New Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:47
+msgid "All Properties"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:48
+msgid "View Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:49
+msgid "Search Property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:50
+msgid "No Properties found"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:51
+msgid "No Properties found in Trash"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:62
+#: templates/agents/row.php:27
+msgid "properties"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:87
+#: includes/post-types/class-realia-post-type-property.php:386
+#: includes/post-types/class-realia-post-type-transaction.php:111
+#: templates/content-property.php:65 templates/misc/transactions.php:18
+msgid "ID"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:102
+msgid "ZIP"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:127
+#: templates/content-property.php:94
+#: templates/widgets/filter-fields/contract.php:10
+msgid "Rent"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:128
+#: templates/content-property.php:96
+#: templates/widgets/filter-fields/contract.php:9
+msgid "Sale"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:137
+#: includes/post-types/class-realia-post-type-property.php:391
+msgid "Gallery"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:142
+msgid "Floor Plans"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:147
+msgid "Video link"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:150
+msgid ""
+"For more information about embeding videos and video links support please "
+"read this <a href=\"http://codex.wordpress.org/Embeds\">article</a>."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:157
+msgid "Pricing"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:171
+msgid "Prefix"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:173
+msgid "Any text shown before price (for example \"from\")."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:177
+msgid "Suffix"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:179
+msgid "Any text shown after price (for example \"per night\")."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:183
+msgid "Custom"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:185
+msgid ""
+"Any text instead of price (for example \"by agreement\"). Prefix and Suffix "
+"will be ignored."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:192
+msgid "Attributes"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:222
+#: includes/post-types/class-realia-post-type-property.php:234
+msgid "In unit set in settings."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:226
+#: templates/content-property.php:119
+msgid "Lot dimensions"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:228
+msgid "e.g. 20x30, 20x30x40, 20x30x40x50"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:241
+msgid "Valuation"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:253
+#: includes/post-types/class-realia-post-type-property.php:280
+msgid "Key"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:258
+#: includes/post-types/class-realia-post-type-property.php:285
+msgid "Value"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:268
+msgid "Public facilities"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:322
+msgid "Relations"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:380
+msgid "Featured Image"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:423
+#: templates/misc/google-map-infowindow.php:30 templates/properties/row.php:72
+msgid "Area"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:433
+#: includes/taxonomies/class-realia-taxonomies-locations.php:33
+#: includes/taxonomies/class-realia-taxonomies-locations.php:43
+msgid "Locations"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:439
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:33
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:43
+msgid "Statuses"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:445
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:33
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:43
+msgid "Types"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:451
+#: includes/taxonomies/class-realia-taxonomies-materials.php:33
+#: includes/taxonomies/class-realia-taxonomies-materials.php:43
+msgid "Materials"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:457
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:33
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:43
+msgid "Amenities"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:483
+#: templates/content-property.php:28 templates/properties/box.php:42
+#: templates/properties/row.php:22 templates/widgets/filter-fields/sticky.php:7
+msgid "TOP"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:490
+msgid "Paid"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:613
+msgid "Message from enquire form"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:656
+msgid "CAPTCHA is not valid."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:664
+msgid "Message has been successfully sent."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:666
+msgid "Unable to send a message."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-property.php:737
+msgid "Property has been successfully updated."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:36
+#: includes/post-types/class-realia-post-type-transaction.php:42
+#: includes/post-types/class-realia-post-type-transaction.php:48
+msgid "Transactions"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:37
+msgid "Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:38
+#: includes/post-types/class-realia-post-type-transaction.php:39
+msgid "Add New Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:40
+msgid "Edit Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:41
+msgid "New Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:43
+msgid "View Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:44
+msgid "Search Transaction"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:45
+msgid "No Transactions found"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:46
+msgid "No Transactions Found in Trash"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:82
+msgid "Payment type"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:87
+msgid "Object ID"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:92
+#: includes/post-types/class-realia-post-type-transaction.php:114
+#: templates/misc/transactions.php:21
+msgid "Object"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:112
+msgid "Success"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:116
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:118
+#: templates/misc/transactions.php:23
+msgid "Date"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:159
+#: templates/misc/transactions.php:44
+msgid "Feature property"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-transaction.php:162
+msgid "Sticky post"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:46
+msgid "Package Information"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:57
+msgid "Valid"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:80
+msgid "Agent object"
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:119
+msgid "Nickname is required."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:124
+msgid "E-mail is required."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:138
+msgid "Profile has been successfully updated."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:157
+msgid "All fields are required."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:162
+msgid "New and retyped password are not same."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:168
+msgid "Your old password is not correct."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:173
+msgid "Your password has been successfully changed."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:193
+msgid "Login and password are required."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:209
+msgid "You have been successfully logged in."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:227
+msgid "Username and e-mail are required."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:235
+msgid "User already exists."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:241
+#: includes/post-types/class-realia-post-type-user.php:255
+msgid "Passwords must be same."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:249
+msgid "You must agree terms &amp; conditions."
+msgstr ""
+
+#: includes/post-types/class-realia-post-type-user.php:270
+msgid "You have been successfully registered."
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:35
+msgid "Search Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:36
+msgid "All Amenities"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:37
+msgid "Parent Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:38
+msgid "Parent Amenity:"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:39
+msgid "Edit Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:40
+msgid "Update Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:41
+msgid "Add New Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:42
+msgid "New Amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-amenities.php:50
+msgid "amenity"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:35
+msgid "Search Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:36
+msgid "All Locations"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:37
+msgid "Parent Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:38
+msgid "Parent Location:"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:39
+msgid "Edit Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:40
+msgid "Update Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:41
+msgid "Add New Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:42
+msgid "New Location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-locations.php:50
+msgid "location"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:35
+msgid "Search Materials"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:36
+msgid "All Materials"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:37
+msgid "Parent Material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:38
+msgid "Parent Material:"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:39
+msgid "Edit Material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:40
+msgid "Update Material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:41
+msgid "Add New Material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:42
+msgid "New Material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-materials.php:50
+msgid "material"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:35
+msgid "Search Types"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:36
+msgid "All Types"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:37
+msgid "Parent Type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:38
+msgid "Parent Type:"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:39
+msgid "Edit Type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:40
+msgid "Update Type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:41
+msgid "Add New Type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:42
+msgid "New Type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-property-types.php:50
+msgid "property-type"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:35
+msgid "Search Statuses"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:36
+msgid "All Statuses"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:37
+msgid "Parent Status"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:38
+msgid "Parent Status:"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:39
+msgid "Edit Status"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:40
+msgid "Update Status"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:41
+msgid "Add New Status"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:42
+msgid "New Status"
+msgstr ""
+
+#: includes/taxonomies/class-realia-taxonomies-statuses.php:50
+msgid "status"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-agents-assigned.php:24
+msgid "Assigned Agents"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-agents-assigned.php:26
+msgid "Displays assigned agents."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-agents.php:26
+msgid "Displays agents in multiple ways."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-enquire.php:24
+msgid "Enquire Form"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-enquire.php:26
+msgid ""
+"Displays enquire form. To show it only on property detail use "
+"is_singular('property') in Widget Logic."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-filter-rent-sale.php:24
+msgid "Rent/Sale Filter"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-filter-rent-sale.php:26
+msgid "Rent/Sale Filter for filtering properties."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-filter.php:24
+msgid "Filter"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-filter.php:26
+msgid "Filter for filtering properties."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-properties-map.php:24
+msgid "Properties Map"
+msgstr ""
+
+#: includes/widgets/class-realia-widget-properties-map.php:26
+msgid "Displays properties in the map."
+msgstr ""
+
+#: includes/widgets/class-realia-widget-properties.php:26
+msgid "Displays properties in multiple ways."
+msgstr ""
+
+#: templates/agencies/row.php:47 templates/agents/row.php:48
+msgid "Contact Information"
+msgstr ""
+
+#: templates/agencies/row.php:52 templates/agents/row.php:53
+#: templates/content-agency.php:31 templates/content-agent.php:31
+msgid "Email"
+msgstr ""
+
+#: templates/agents/contact-form.php:18
+msgid "Your message has been successfully sent."
+msgstr ""
+
+#: templates/agents/contact-form.php:20
+msgid "An error occured when sending an email."
+msgstr ""
+
+#: templates/agents/contact-form.php:23
+msgid "Form has been not filled correctly."
+msgstr ""
+
+#: templates/agents/contact-form.php:31
+msgid "Contact Form"
+msgstr ""
+
+#: templates/agents/contact-form.php:36
+msgid "Subject"
+msgstr ""
+
+#: templates/agents/contact-form.php:44 templates/widgets/enquire.php:39
+msgid "Message"
+msgstr ""
+
+#: templates/agents/contact-form.php:51
+msgid "Send message"
+msgstr ""
+
+#: templates/archive-agency.php:35 templates/archive-agent.php:35
+#: templates/archive-property.php:57 templates/misc/transactions.php:68
+#: templates/single-agency.php:16 templates/single-agent.php:16
+#: templates/single-property.php:16 templates/submission/list.php:174
+#: templates/taxonomy-amenities.php:57 templates/taxonomy-locations.php:44
+#: templates/taxonomy-materials.php:44 templates/taxonomy-property_types.php:44
+#: templates/taxonomy-statuses.php:44
+msgid "Previous page"
+msgstr ""
+
+#: templates/archive-agency.php:36 templates/archive-agent.php:36
+#: templates/archive-property.php:58 templates/misc/transactions.php:69
+#: templates/single-agency.php:17 templates/single-agent.php:17
+#: templates/single-property.php:17 templates/submission/list.php:175
+#: templates/taxonomy-amenities.php:58 templates/taxonomy-locations.php:45
+#: templates/taxonomy-materials.php:45 templates/taxonomy-property_types.php:45
+#: templates/taxonomy-statuses.php:45
+msgid "Next page"
+msgstr ""
+
+#: templates/archive-agency.php:37 templates/archive-agent.php:37
+#: templates/archive-property.php:59 templates/content-agency.php:102
+#: templates/content-agent.php:88 templates/content-property.php:282
+#: templates/misc/transactions.php:70 templates/single-agency.php:18
+#: templates/single-agent.php:18 templates/single-property.php:18
+#: templates/submission/list.php:176 templates/taxonomy-amenities.php:59
+#: templates/taxonomy-locations.php:46 templates/taxonomy-materials.php:46
+#: templates/taxonomy-property_types.php:46 templates/taxonomy-statuses.php:46
+msgid "Page"
+msgstr ""
+
+#: templates/content-agency.php:52 templates/content-agent.php:52
+#: templates/content-property.php:157
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: templates/content-agency.php:98 templates/content-agent.php:84
+#: templates/content-property.php:278
+msgid "Pages:"
+msgstr ""
+
+#: templates/content-property.php:36
+msgid "Show"
+msgstr ""
+
+#: templates/content-property.php:82
+msgid "Yes"
+msgstr ""
+
+#: templates/content-property.php:84
+msgid "No"
+msgstr ""
+
+#: templates/content-property.php:254
+msgid "Similar properties"
+msgstr ""
+
+#: templates/mails/enquire.php:8 templates/widgets/enquire.php:31
+msgid "Name"
+msgstr ""
+
+#: templates/mails/enquire.php:21
+msgid "URL"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:3 templates/misc/breadcrumb.php:6
+msgid "Home"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:47
+msgid "Page not found"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:54 templates/misc/breadcrumb.php:56
+#: templates/misc/breadcrumb.php:58
+msgid "Archive for"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:60
+msgid "Author Archive"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:62
+msgid "Blog Archives"
+msgstr ""
+
+#: templates/misc/breadcrumb.php:64
+msgid "Search Results"
+msgstr ""
+
+#: templates/misc/comment.php:19
+msgid "Reply"
+msgstr ""
+
+#: templates/misc/comment.php:30
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/misc/login.php:9 templates/misc/register.php:10
+msgid "Username"
+msgstr ""
+
+#: templates/misc/login.php:14 templates/misc/register.php:20
+msgid "Password"
+msgstr ""
+
+#: templates/misc/login.php:18
+msgid "Log in"
+msgstr ""
+
+#: templates/misc/password-form.php:9
+msgid "Old password"
+msgstr ""
+
+#: templates/misc/password-form.php:14
+msgid "New password"
+msgstr ""
+
+#: templates/misc/password-form.php:19
+msgid "Retype password"
+msgstr ""
+
+#: templates/misc/password-form.php:23
+msgid "Change Password"
+msgstr ""
+
+#: templates/misc/profile-form.php:14
+msgid "Nickname"
+msgstr ""
+
+#: templates/misc/profile-form.php:24
+msgid "First name"
+msgstr ""
+
+#: templates/misc/profile-form.php:29
+msgid "Last name"
+msgstr ""
+
+#: templates/misc/profile-form.php:33
+msgid "Change Profile"
+msgstr ""
+
+#: templates/misc/register.php:25
+msgid "Retype Password"
+msgstr ""
+
+#: templates/misc/register.php:30
+msgid "Sign Up"
+msgstr ""
+
+#: templates/misc/register.php:38
+#, php-format
+msgid "I agree with <a href=\"%s\">terms & conditions</a>"
+msgstr ""
+
+#: templates/misc/register.php:45
+msgid "Registrations are not allowed."
+msgstr ""
+
+#: templates/misc/transactions.php:20
+msgid "Gateway"
+msgstr ""
+
+#: templates/misc/transactions.php:22
+msgid "Payment Type"
+msgstr ""
+
+#: templates/misc/transactions.php:47
+msgid "TOP property"
+msgstr ""
+
+#: templates/misc/transactions.php:73
+msgid "No transactions found."
+msgstr ""
+
+#: templates/notices/welcome.php:2
+msgid ""
+"<strong>Welcome to Realia</strong> - please read <a href=\"http://wprealia."
+"com/documentation/index.html\">documentation</a> for more information. If "
+"you does not have real estate theme, use free <a href=\"https://github.com/"
+"pragmaticmates/realia-bootstrap\">Realia Bootstrap</a> starter."
+msgstr ""
+
+#: templates/notices/welcome.php:6
+msgid "Documentation"
+msgstr ""
+
+#: templates/notices/welcome.php:10
+msgid "Realia Bootstrap"
+msgstr ""
+
+#: templates/notices/welcome.php:14
+msgid "Hide"
+msgstr ""
+
+#: templates/properties/box.php:89
+msgid "Read More"
+msgstr ""
+
+#: templates/properties/sort.php:16
+msgid "Sorting options"
+msgstr ""
+
+#: templates/properties/sort.php:21
+msgid "Sort by"
+msgstr ""
+
+#: templates/properties/sort.php:24 templates/submission/list.php:128
+msgid "Published"
+msgstr ""
+
+#: templates/properties/sort.php:30
+msgid "Order"
+msgstr ""
+
+#: templates/properties/sort.php:31
+msgid "ASC"
+msgstr ""
+
+#: templates/properties/sort.php:32
+msgid "DESC"
+msgstr ""
+
+#: templates/submission/list.php:11
+msgid "Create Property"
+msgstr ""
+
+#: templates/submission/list.php:45
+msgid "No image"
+msgstr ""
+
+#: templates/submission/list.php:88
+msgid "Make TOP"
+msgstr ""
+
+#: templates/submission/list.php:112
+msgid "Make featured"
+msgstr ""
+
+#: templates/submission/list.php:140
+msgid "Publish"
+msgstr ""
+
+#: templates/submission/list.php:158
+msgid "Edit"
+msgstr ""
+
+#: templates/submission/list.php:164
+msgid "Remove"
+msgstr ""
+
+#: templates/submission/list.php:182
+msgid "You don't have any properties, yet. Start by creating new one."
+msgstr ""
+
+#: templates/submission/package-info.php:13
+msgid ""
+"Site is using packages. Before you can post property, please upgrade your "
+"package."
+msgstr ""
+
+#: templates/submission/package-info.php:17
+#, php-format
+msgid "You are using <strong>%s</strong> package."
+msgstr ""
+
+#: templates/submission/package-info.php:22
+#, php-format
+msgid "Your subscription is valid until <strong>%s</strong>."
+msgstr ""
+
+#: templates/submission/package-info.php:27
+msgid "You can add <strong>unlimited</strong> amount of items"
+msgstr ""
+
+#: templates/submission/package-info.php:29
+#, php-format
+msgid ""
+"You can not add any properties because you spent all of your available "
+"properties. Change your package. First <strong>%s</strong> items has been "
+"disabled from listing."
+msgstr ""
+
+#: templates/submission/package-info.php:31
+#, php-format
+msgid "You can add <strong>%s</strong> items."
+msgstr ""
+
+#: templates/submission/package-info.php:34
+#, php-format
+msgid ""
+"Your subscription already expired at <strong>%s</strong>. All your items has "
+"been deactivated until you pay for new subscription."
+msgstr ""
+
+#: templates/submission/package-info.php:43
+msgid "Payment page has been not set."
+msgstr ""
+
+#: templates/submission/package-info.php:52
+msgid "Select Package"
+msgstr ""
+
+#: templates/submission/package-info.php:62
+msgid "Upgrade"
+msgstr ""
+
+#: templates/submission/payment.php:19
+#, php-format
+msgid ""
+"You are going to pay <strong>%s</strong> for featuring property <strong>\"%s"
+"\"</strong>."
+msgstr ""
+
+#: templates/submission/payment.php:26
+#, php-format
+msgid ""
+"You are going to pay <strong>%s</strong> for TOP property <strong>\"%s\"</"
+"strong>."
+msgstr ""
+
+#: templates/submission/payment.php:33
+#, php-format
+msgid ""
+"You are going to pay <strong>%s</strong> for publishing property <strong>\"%s"
+"\"</strong>."
+msgstr ""
+
+#: templates/submission/payment.php:41
+#, php-format
+msgid ""
+"You are going to pay <strong>%s</strong> for package <strong>\"%s\"</strong>."
+msgstr ""
+
+#: templates/submission/payment.php:45
+msgid "Missing package."
+msgstr ""
+
+#: templates/submission/payment.php:50
+msgid "You are missing payment type."
+msgstr ""
+
+#: templates/submission/payment.php:87
+msgid "Proceed payment"
+msgstr ""
+
+#: templates/submission/payment.php:91
+msgid ""
+"Your submission will be manually reviewed when transfer will be completed."
+msgstr ""
+
+#: templates/submission/payment.php:96
+msgid "No payment gateways found."
+msgstr ""
+
+#: templates/submission/payment.php:104
+msgid "Back to:"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:10
+#, php-format
+msgid "for featuring property \"%s\""
+msgstr ""
+
+#: templates/submission/wire-transfer.php:12
+#, php-format
+msgid "for TOP property \"%s\""
+msgstr ""
+
+#: templates/submission/wire-transfer.php:14
+#, php-format
+msgid "for publishing property \"%s\""
+msgstr ""
+
+#: templates/submission/wire-transfer.php:16
+#, php-format
+msgid "for package \"%s\""
+msgstr ""
+
+#: templates/submission/wire-transfer.php:22
+msgid "Beneficiary's account number"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:27
+msgid "Bank code (SWIFT/BIC)"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:32
+msgid "Variable symbol"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:37
+msgid "Information / reference"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:44
+msgid "Beneficiary's name"
+msgstr ""
+
+#: templates/submission/wire-transfer.php:54
+msgid "Postcode (ZIP)"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:42
+#: templates/widgets/filter-rent-sale-admin.php:72
+#: templates/widgets/properties-admin.php:43
+#: templates/widgets/properties-map-admin.php:105
+msgid "Classes"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:51
+#: templates/widgets/properties-admin.php:52
+msgid "Additional classes e.g. <i>fullwidth background-gray</i>"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:58
+#: templates/widgets/properties-admin.php:58
+msgid "Count"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:71
+#: templates/widgets/properties-admin.php:71
+msgid "Items per row"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:88
+#: templates/widgets/properties-admin.php:130
+msgid "Display as"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:93
+#: templates/widgets/properties-admin.php:135
+msgid "Small"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:94
+#: templates/widgets/properties-admin.php:136
+msgid "Box"
+msgstr ""
+
+#: templates/widgets/agents-admin.php:95
+#: templates/widgets/properties-admin.php:137
+msgid "Row"
+msgstr ""
+
+#: templates/widgets/agents.php:52
+msgid "No agents found."
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:28
+msgid "Who will receive an e-mail?"
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:40
+msgid "Site admin"
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:53
+msgid "Property author"
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:66
+msgid "Assigned agent"
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:71
+msgid "If none selected, post author will receive an email by default."
+msgstr ""
+
+#: templates/widgets/enquire-admin.php:83
+msgid "Disable reCAPTCHA"
+msgstr ""
+
+#: templates/widgets/enquire.php:49
+msgid "Send Message"
+msgstr ""
+
+#: templates/widgets/filter-admin.php:28
+#: templates/widgets/filter-rent-sale-admin.php:30
+msgid "Button text"
+msgstr ""
+
+#: templates/widgets/filter-admin.php:39
+#: templates/widgets/filter-rent-sale-admin.php:41
+msgid "Input titles"
+msgstr ""
+
+#: templates/widgets/filter-admin.php:50
+#: templates/widgets/filter-rent-sale-admin.php:52
+msgid "Labels"
+msgstr ""
+
+#: templates/widgets/filter-admin.php:62
+#: templates/widgets/filter-rent-sale-admin.php:64
+msgid "Placeholders"
+msgstr ""
+
+#: templates/widgets/filter-fields/amenity.php:13
+msgid "All amenities"
+msgstr ""
+
+#: templates/widgets/filter-fields/baths.php:12
+msgid "Baths: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/baths.php:14
+#: templates/widgets/filter-fields/beds.php:14
+#: templates/widgets/filter-fields/garages.php:15
+#: templates/widgets/filter-fields/rooms.php:15
+msgid "Any"
+msgstr ""
+
+#: templates/widgets/filter-fields/beds.php:12
+msgid "Beds: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/contract.php:8
+msgid "All contracts"
+msgstr ""
+
+#: templates/widgets/filter-fields/garages.php:13
+msgid "Garages: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/home-area.php:4
+#: templates/widgets/filter-fields/home-area.php:8
+msgid "Home area from"
+msgstr ""
+
+#: templates/widgets/filter-fields/home-area.php:15
+#: templates/widgets/filter-fields/home-area.php:19
+msgid "Home area to"
+msgstr ""
+
+#: templates/widgets/filter-fields/location.php:12
+msgid "All locations"
+msgstr ""
+
+#: templates/widgets/filter-fields/lot-area.php:4
+#: templates/widgets/filter-fields/lot-area.php:8
+msgid "Lot area from"
+msgstr ""
+
+#: templates/widgets/filter-fields/lot-area.php:15
+#: templates/widgets/filter-fields/lot-area.php:19
+msgid "Lot area to"
+msgstr ""
+
+#: templates/widgets/filter-fields/material.php:14
+msgid "All materials"
+msgstr ""
+
+#: templates/widgets/filter-fields/price.php:4
+#: templates/widgets/filter-fields/price.php:8
+msgid "Price from"
+msgstr ""
+
+#: templates/widgets/filter-fields/price.php:15
+#: templates/widgets/filter-fields/price.php:19
+msgid "Price to"
+msgstr ""
+
+#: templates/widgets/filter-fields/property-type.php:17
+msgid "All property types"
+msgstr ""
+
+#: templates/widgets/filter-fields/rooms.php:13
+msgid "Rooms: any"
+msgstr ""
+
+#: templates/widgets/filter-fields/status.php:14
+msgid "All statuses"
+msgstr ""
+
+#: templates/widgets/filter-rent-sale-admin.php:81
+msgid "Additional classes e.g. <i>transparent-background map-overlay</i>"
+msgstr ""
+
+#: templates/widgets/filter-rent-sale-admin.php:90
+msgid "Rent Fields"
+msgstr ""
+
+#: templates/widgets/filter-rent-sale-admin.php:126
+msgid "Sale Fields"
+msgstr ""
+
+#: templates/widgets/filter-rent-sale.php:30
+msgid "For Rent"
+msgstr ""
+
+#: templates/widgets/filter-rent-sale.php:31
+msgid "For Sale"
+msgstr ""
+
+#: templates/widgets/properties-admin.php:87
+msgid "Choose attribute"
+msgstr ""
+
+#: templates/widgets/properties-admin.php:96
+msgid "It doesn't matter"
+msgstr ""
+
+#: templates/widgets/properties-admin.php:108
+msgid "Featured only"
+msgstr ""
+
+#: templates/widgets/properties-admin.php:121
+msgid "Reduced only"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:22
+msgid "Latitude"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:35
+msgid "Longitude"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:49
+msgid "Zoom"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:62
+msgid "Grid size"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:75
+msgid "Style"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:79
+msgid "Default"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:92
+msgid "Height"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:114
+msgid ""
+"Additional classes appended to body class and separated by , e.g. "
+"<i>transparent-header, property-map-append-top</i>"
+msgstr ""
+
+#: templates/widgets/properties-map-admin.php:124
+msgid "Geolocation"
+msgstr ""
+
+#: templates/widgets/properties.php:52
+msgid "No properties found."
+msgstr ""

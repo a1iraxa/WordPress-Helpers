@@ -1,0 +1,13 @@
+Maps Api Key  : Dev Server - AIzaSyCicdKjlBWZUdK0c5ILhPC2Qvl6WxJU_co
+
+Frontend
+Site Key : 6Lf0lQgUAAAAAA_rXxiHTZBzhzgcI4TLtBUc5KfF
+Secret Key : 6Lf0lQgUAAAAAOWidFX4uRRUyrigPUR6vT7Pxt3d
+Script Tag : <script src='https://www.google.com/recaptcha/api.js'></script>
+Snippet : <div class="g-recaptcha" data-sitekey="6Lf0lQgUAAAAAA_rXxiHTZBzhzgcI4TLtBUc5KfF"></div>
+
+Server Side
+URL: https://www.google.com/recaptcha/api/siteverify
+secret (required) : 6Lf0lQgUAAAAAOWidFX4uRRUyrigPUR6vT7Pxt3d
+response (required) : The value of 'g-recaptcha-response'.
+remoteip : The end user's ip address.

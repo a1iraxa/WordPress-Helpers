@@ -1,0 +1,31 @@
+/*-----------------------------------------------------------------------------------*/
+/* Wide theme CSS */
+/*-----------------------------------------------------------------------------------*/
+
+#modal-login #forgetmenot {
+	margin: 0 0 23px;
+}
+#additional-settings {
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	margin: 27px 0 0;
+}
+#modal-login #forgetmenot label {
+	margin: 0;
+}
+#modal-login .submit {
+	float: none;
+}
+#modal-login #forgotten .submit {
+	margin-top: 29px;
+}
+#modal-login input[type="submit"] {
+	width: 100%;
+}
+.mlpsw {
+	padding-bottom: 26px;
+}
+.mlforgt {
+	padding-bottom: 0px;
+}
