@@ -1,0 +1,3 @@
+C:\Windows\System32\GroupPolicy
+rename all registry .pol to .sav
+reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome

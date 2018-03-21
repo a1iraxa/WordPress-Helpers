@@ -1,0 +1,20 @@
+1. It’s requires Composer to manage its dependencies. so first need to download composer
+2. After download composer, install composer on your system.
+3. Run below command to check composer has installed successfully 
+# check composer working
+composer
+4. After composer installed successfully we need to install laravel installer via composer so open windows command prompt and run below command to install.
+# installing installer
+composer global require "laravel/installer=~1.1"
+5. After install it’s installer we need to set PATH environment variable for setup PATH run below command
+# setting up env path
+set PATH=%PATH%;%USERPROFILE%\AppData\Roaming\Composer\vendor\bin
+
+PATH :- path is a location where composer installed ” ~/.composer/vendor/bin” on Windows path should be used:
+“C:\Users\\AppData\Roaming\Composer\vendor\bin” so in above command added “%USERPROFILE%” so this will auto get your computer name
+
+For test run command laravel to check you have path setuped correctly
+# testing command 
+laravel
+# installing 
+laravel new laranew

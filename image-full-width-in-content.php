@@ -1,17 +1,19 @@
 
-div.alignnone  {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-.alignnone img {
-	width: 100% !important;
-}
+<style type="text/css">
+  div.alignnone  {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .alignnone img {
+    width: 100% !important;
+  }
+</style>
 
-
+<?php
 function wrapImagesInDiv($content) {
    $pattern = '/(<img[^>]*class=\"([^>]*?)\"[^>]*>)/i';
    $replacement = '<div class="$2">$1</div>';

@@ -112,8 +112,8 @@ class Speakers_Post_Typ {
 		    $field['id'] = str_replace( 'field', 'gfield', $field['id'] );
 		}
 
-		$metaboxes[ prefix . 'general' ] = array(
-			'id'                        => prefix . 'metabox',
+		$metaboxes[ $prefix . 'general' ] = array(
+			'id'                        => $prefix . 'metabox',
 			'title'                     => __( 'General Options', 'speckers' ),
 			'object_types'              => array( 'speckers' ),
 			'context'                   => 'normal',

@@ -10,6 +10,9 @@ add_action( 'phpmailer_init', 'digitsol_mailer_config', 10, 1);
         $phpmailer->Username   = 'wordpress@rainbowflag.com.au';
         $phpmailer->Password   = 'DigitSol@12';
         $phpmailer->SMTPSecure = 'ssl';
+        //CC and BCC
+        // $phpmailer->addCC("cc@example.com");
+        // $phpmailer->addBCC("bcc@example.com");
         // $phpmailer->From       = 'aligcs';
         // $phpmailer->FromName   = 'RainbowFlag';
         $phpmailer->SMTPDebug = 0; // write 2 for debugging
@@ -26,8 +29,8 @@ add_action( 'phpmailer_init', 'digitsol_mailer_config', 10, 1);
     
     add_action('wp_mail_failed', 'digitsol_log_mailer_errors', 10, 1);
     function digitsol_log_mailer_errors(){
-      $fn = ABSPATH . '/digitsol-mail.log'; // say you've got a mail.log file in your server root
-      $fp = fopen($fn, 'a');
-      fputs($fp, "Mailer Error: " . print_r($mailer) ."\n");
-      fclose($fp);
+        $fn = ABSPATH . '/digitsol-mail.log'; // say you've got a mail.log file in your server root
+        $fp = fopen($fn, 'a');
+        fputs($fp, "Mailer Error: " . print_r($mailer) ."\n");
+        fclose($fp);
     }

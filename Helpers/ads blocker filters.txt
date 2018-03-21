@@ -1,0 +1,18 @@
+extratorrent.cc##TABLE[width="1070"]
+extratorrent.cc##DIV[style="text-align: center;"] > TABLE[align="center"] > TBODY:first-child > TR:first-child > .tabledata1
+extratorrent.cc##TABLE:first-child + DIV[style="display:none"] + [class]
+extratorrent.cc##TD[style="font-size: 12px;"]
+extratorrent.cc##.borderdark + DIV[style="padding:20px 0;"]
+extratorrent.cc##[style="font-size:16px;"]:first-child > .tabledata1
+extratorrent.cc##[id^="MarketGidWrap"] + br + TABLE
+extratorrent.cc##.tztblsearch > TBODY > tr > [class]
+extratorrent.cc##a[title] + br + br + br + TABLE
+extratorrent.cc#@#.adsbox
+@@||comeadvertisewithus.com/ads/.adplacement=
+||extratorrent.cc/scripts/main.js?*
+||130.211.230.53^$popup
+||104.154.237.193^$popup
+||104.198.147.108^$popup
+*.*.*.*^$popup,third-party,domain=extratorrent.cc
+||130.211.212.60^*
+||130.211.212.60^$popup
