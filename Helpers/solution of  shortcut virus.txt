@@ -1,0 +1,14 @@
+1.Open task manager and kill process wscript.exe
+2.Delete VirusRemoval.vbs and Autorun.inf files from all usb drives if u have the virus in them
+3.Go to c:\\Windows\\System32 and delete the file VirusRemoval.vbs. It is super hidden so first go to Folder Options and check show hidden and check boxes. Also required for the above files
+4.go to start>run and type regedit and enter
+Go to HKLM\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon
+On the right side look for Shell which should have value of just explorer.exe	
+delete anything at right side of explorer.exe if there is anything.
+5.Under same key Winlogon also look for Userinit which should have value of
+c:\\WINDOWS\\system32\\userinit.exe, 
+Delete all after the comma.
+6.Go to HKCU\\Software\\Microsoft\\Internet Explorer\\Main
+On the right side locate Window Title and delete its value i.e. Sujin.com.np
+7.Under the same key locate Start Page and delete its value i.e. 
+ 
