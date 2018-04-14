@@ -1,3 +1,8 @@
+if (typeof jQuery === "undefined") {
+    throw new Error("jQuery plugins need to be before this file");
+}
+
+"use strict";
 
 asim_Helpers = {};
 jQuery(document).ready(function ($) {
@@ -26,7 +31,7 @@ jQuery(document).ready(function ($) {
             botton.toggleClass("disabled");
 
             // asim_Notifications.info('info', 'Processing data');
-            
+
             $.ajax({
                 type:       'POST',
                 dataType:   "json",
@@ -37,27 +42,27 @@ jQuery(document).ready(function ($) {
                 success:    function( response ) {
 
                     if ( response.success ) {
-                        
+
                         // asim_Notifications.success('Success', response.msg);
-                        
+
                         botton.hide();
-                        if ($.exists( view_cart )) { 
-                            view_cart.toggleClass('hide');    
+                        if ($.exists( view_cart )) {
+                            view_cart.toggleClass('hide');
                         }else{
                             window.location.replace( laroute.route('cart') );
                         }
-                        
+
 
                     } else {
-                        
+
                         // asim_Notifications.error('Errors', response.msg);
-                        
+
                         botton.toggleClass("disabled");
                     }
-                    
+
                 },
                 error: function() {
-                    
+
                     // asim_Notifications.error('Errors', 'Something went wrong. Try after page reload.');
 
                     botton.toggleClass("disabled");
@@ -83,22 +88,22 @@ jQuery(document).ready(function ($) {
                 success:    function( response ) {
 
                     if ( response.success ) {
-                        
+
                         // asim_Notifications.success('Success', response.msg);
-                        
+
                         location.reload();
 
                     } else {
-                        
+
                         // asim_Notifications.error('Errors', response.msg);
-                        
+
                     }
-                    
+
                 },
                 error: function() {
-                    
+
                     // asim_Notifications.error('Errors', 'Something went wrong. Try after page reload.');
-                    
+
                 }
             });
         },
@@ -117,7 +122,7 @@ jQuery(document).ready(function ($) {
             botton.toggleClass("disabled");
 
             // asim_Notifications.info('info', 'Processing data');
-            
+
             $.ajax({
                 type:       'POST',
                 dataType:   "json",
@@ -128,21 +133,21 @@ jQuery(document).ready(function ($) {
                 success:    function( response ) {
 
                     if ( response.success ) {
-                        
+
                         // asim_Notifications.success('Success', response.msg);
 
                         window.location.replace( response.redirect );
 
                     } else {
-                        
+
                         // asim_Notifications.error('Errors', response.msg);
-                        
+
                         botton.toggleClass("disabled");
                     }
-                    
+
                 },
                 error: function() {
-                    
+
                     // asim_Notifications.error('Errors', 'Something went wrong. Try after page reload.');
 
                     botton.toggleClass("disabled");
@@ -150,7 +155,7 @@ jQuery(document).ready(function ($) {
                 }
             });
         },
-        
+
     };
     asim_Helpers = asim_Helpers_Object;
     asim_Helpers.init();

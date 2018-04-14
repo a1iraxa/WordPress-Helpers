@@ -81,10 +81,10 @@ class Speakers_Post_Typ {
 		$prefix = '_speckers_';
 
 		$qualification_fields = array(
-	        array( 
+	        array(
 	            'id' => $prefix . 'qualification_title',
 	            'name' => 'Qualification',
-	            'type' => 'text' 
+	            'type' => 'text'
 	            ),
 	    );
 	    $qualification_group_fields = $qualification_fields;
@@ -93,13 +93,13 @@ class Speakers_Post_Typ {
 		    $field['id'] = str_replace( 'field', 'gfield', $field['id'] );
 		}
 		$social_fields = array(
-	        array( 
+	        array(
 	            'id' => $prefix . 'fa_class',
 	            'name' => 'Awesome Font Class',
 	            'type' => 'text',
 	            'desc' => 'e.g: fa-facebook',
 	            ),
-	        array( 
+	        array(
 	            'id' => $prefix . 'media_link',
 	            'name' => 'URL',
 	            'type' => 'text_url' ,
@@ -131,11 +131,11 @@ class Speakers_Post_Typ {
 			        'type' => 'text',
 			    ),
 			    array(
-	                'id' => $prefix .'social', 
+	                'id' => $prefix .'social',
 	                'name' => 'Social Media',
 	                'description' => 'Speaker Social Media', 'cmb' ,
 	                'options'     => array(
-						'group_title'   => __( 'Social Media {#}', 'cmb' ), 
+						'group_title'   => __( 'Social Media {#}', 'cmb' ),
 						'add_button'    => __( 'Add New Social Media', 'cmb' ),
 						'remove_button' => __( 'Remove Social Media', 'cmb' ),
 						'sortable'      => false, // beta
@@ -146,11 +146,11 @@ class Speakers_Post_Typ {
 	                'fields' => $social_group_fields
 	            ),
 			    array(
-	                'id' => $prefix .'qualifications', 
+	                'id' => $prefix .'qualifications',
 	                'name' => 'Qualification',
 	                'description' => 'Speaker Qualification', 'cmb' ,
 	                'options'     => array(
-						'group_title'   => __( 'Qualification {#}', 'cmb' ), 
+						'group_title'   => __( 'Qualification {#}', 'cmb' ),
 						'add_button'    => __( 'Add New Qualification', 'cmb' ),
 						'remove_button' => __( 'Remove Qualification', 'cmb' ),
 						'sortable'      => false, // beta
