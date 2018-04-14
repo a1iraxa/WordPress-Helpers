@@ -53,4 +53,30 @@ jQuery(document).ready(function($) {
         }
         return false;
     };
+
+    /*
+        Usage:
+        anyFunction(e) {
+            e.preventDefault();
+            var validated = false;
+
+            var requiredFields = {
+                autocompleteAddress: $('#autocomplete-address'),
+                address: $('input[name=address]'),
+            };
+
+            $.each(requiredFields, function(key, value) {
+                if (this.isEmpty()) {
+                    validated = false;
+                    return false;
+                }
+                validated = true;
+
+            });
+
+            if (validated) {
+                this.showNext( $(e.currentTarget).data('active') );
+            }
+        }
+    */
 });
