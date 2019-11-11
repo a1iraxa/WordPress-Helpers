@@ -1,0 +1,26 @@
+http://www.thesufi.com/2013_em/Nusrat-Fateh-Ali-Khan/
+
+wget -r --no-parent -e robots=off --cut-dirs=2 --reject="index.html*" --level=1 http://www.thesufi.com/2013_em/Nusrat-Fateh-Ali-Khan/
+
+wget -e robots=off -r -np -l3 -nH --accept mp3,MP3 -R index.html http://www.thesufi.com/sufimusic/nusrat-fateh-ali-khan/sajde-mein-sar-katane.html
+
+wget -A mp3,MP3 -m -p -E -k -K -np -R index.html http://www.thesufi.com/2013_em/Nusrat-Fateh-Ali-Khan/
+
+wget --mirror --page-requisites --adjust-extension --no-parent --convert-links --directory-prefix=folder2 http://www.thesufi.com/2013_em/Nusrat-Fateh-Ali-Khan/
+
+
+wget --input-file list-of-file-urls.txt
+
+wget --input-file nusrat-new.txt
+
+wget  --input-file list-of-file-urls.txt -O - 2>/dev/null | grep -oP 'href="\Khttp:.+?"' | sed 's/"//' | grep -v facebook > file.txt
+
+
+http://www.thesufi.com/sufimusic/nusrat-fateh-ali-khan.html
+
+wget  http://www.thesufi.com/sufimusic/nusrat-fateh-ali-khan.html -O - 2>/dev/null | grep -oP 'href="\Khttp:.+?"' | sed 's/"//' > list.txt
+
+wget  http://www.thesufi.com/sufimusic/nusrat-fateh-ali-khan.html -O - 2>/dev/null | grep -oe 'www[nusrat]*' | sed 's/"//' > list-new.txt
+
+
+wget --recursive --spider --force-html --reject=jpg,jpeg,png,gif http://www.thesufi.com/sufimusic/nusrat-fateh-ali-khan.html 2>&1 | sort | uniq | grep -oe 'www[^ ]*' > list-new.txt
