@@ -76,4 +76,5 @@ git branch -d "branch_name_without_qoutes" // This will delete only local not re
 git push origin :"deleted_branch_name_without_qoutes"
 
 
+https://www.youtube.com/playlist?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx
 
